@@ -1,0 +1,32 @@
+[
+  {
+    "pair": "A primary",
+    "ratio": 13.89,
+    "AA": true
+  },
+  {
+    "pair": "A muted",
+    "ratio": 5.06,
+    "AA": true
+  },
+  {
+    "pair": "A button",
+    "ratio": 8.38,
+    "AA": true
+  },
+  {
+    "pair": "B primary",
+    "ratio": 13.33,
+    "AA": true
+  },
+  {
+    "pair": "B muted",
+    "ratio": 5.37,
+    "AA": true
+  },
+  {
+    "pair": "B button",
+    "ratio": 8.75,
+    "AA": true
+  }
+]
