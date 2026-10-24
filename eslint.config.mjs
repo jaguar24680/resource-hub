@@ -2,5 +2,5 @@ import { defineConfig } from "eslint/config";
 import next from "eslint-config-next/core-web-vitals";
 export default defineConfig([
   ...next,
-  { ignores: [".next/**", "node_modules/**", "next-env.d.ts"] },
+  { ignores: [".next/**", "node_modules/**", "out/**", "next-env.d.ts"] },
 ]);

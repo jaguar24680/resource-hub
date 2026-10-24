@@ -1,9 +1,10 @@
-import Hub from "@/components/hub";
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ concept?: string }>;
-}) {
-  const params = await searchParams;
-  return <Hub concept={params.concept === "b" ? "b" : "a"} />;
+import { Suspense } from "react";
+import ConceptPage from "./concept-page";
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div role="status">Загрузка…</div>}>
+      <ConceptPage />
+    </Suspense>
+  );
 }

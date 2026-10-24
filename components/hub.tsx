@@ -79,7 +79,7 @@ export default function Hub({ concept }: { concept: "a" | "b" }) {
         Перейти к содержимому
       </a>
       <aside className="sidebar">
-        <a className="brand" href={concept === "b" ? "/?concept=b" : "/"}>
+        <a className="brand" href={concept === "b" ? "./?concept=b" : "./"}>
           <span className="brand-mark">
             <Library size={23} />
           </span>
@@ -144,7 +144,7 @@ export default function Hub({ concept }: { concept: "a" | "b" }) {
           <div className="top-actions">
             <a
               className="concept-switch"
-              href={concept === "a" ? "/?concept=b" : "/"}
+              href={concept === "a" ? "./?concept=b" : "./"}
             >
               {concept === "a" ? "B · Индекс" : "A · Библиотека"}
               <ArrowUpRight size={14} />
